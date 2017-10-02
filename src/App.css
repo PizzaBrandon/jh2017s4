@@ -1,0 +1,124 @@
+.container {
+  margin: 0 auto;
+  height: 100%;
+  width: 70%;
+  min-height: 100%;
+
+  border: 10px solid #ccc;
+  border-top: none;
+  border-bottom: none;
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start; /* align items in Main Axis */
+  align-items: stretch; /* align items in Cross Axis */
+  align-content: stretch; /* Extra space in Cross Axis */
+}
+
+.header {
+  color: black;
+  text-align: center;
+  background-color: #ccc;
+  z-index: 5;
+  padding: 10px 0;
+  font-weight: bold;
+
+  font-size: 1.25em;
+
+  flex: 0;
+}
+
+.messagewindow {
+  overflow: hidden;
+
+  border-top: 4px solid #aaa;
+
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start; /* align items in Main Axis */
+  align-items: stretch; /* align items in Cross Axis */
+  align-content: stretch; /* Extra space in Cross Axis */
+}
+
+.messagelist {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.me + .me,
+.her + .her {
+  margin-top: 0.2em;
+}
+
+.messagecontainer {
+  bottom: 0;
+  padding: 0 3%;
+  align-items: flex-end;
+  margin-top: 0.7em;
+}
+
+.messagecontainer.me {
+  text-align: right;
+}
+
+.message {
+  display: inline-block;
+  background: #ccc;
+  border-radius: 0.15em;
+  padding: 0.2em 0.3em;
+  margin: 0 0.15em;
+  color: black;
+  max-width: 75%;
+}
+
+.message.me {
+  text-align: left;
+  background: #0077be;
+  color: white;
+}
+
+.keyboard-input {
+  background: #ccc;
+  margin-top: 0.25em
+}
+
+.typed-input {
+  color: black;
+  background: white;
+  min-height: 1.65em;
+  padding: 0.25em 0.5em 0.2em;
+  bottom: 0;
+  border-radius: 0.35em;
+  margin: 0.25em 0.15em;
+}
+
+
+.blinker {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  animation-duration: 1s;
+  display: inline-block;
+  width: 3px;
+  height: 1em;
+  margin-bottom: -0.15em;
+  margin-left: 6px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  background: black;
+}
+
+@keyframes blinker {
+  from {
+    opacity: 1.0;
+  }
+  to {
+    opacity: 0.0;
+  }
+}
