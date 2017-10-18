@@ -1,6 +1,6 @@
 const context = new AudioContext();
 const req = new XMLHttpRequest();
-req.open('GET', './sound.mp3', true);
+req.open('GET', './sound.wav', true);
 req.responseType = 'arraybuffer';
 
 let loaded = false;
