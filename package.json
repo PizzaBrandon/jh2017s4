@@ -1,12 +1,12 @@
 {
   "name": "phone-text",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^1.0.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14",
+    "gh-pages": "^2.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.5",
     "react-transition-group": "^2.2.1"
   },
   "scripts": {
@@ -17,5 +17,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://pizzabrandon.github.io/jh2017s4"
+  "homepage": "https://pizzabrandon.github.io/jh2017s4",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

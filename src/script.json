@@ -1,61 +1,61 @@
 [{
-  "from": "me",
-  "body": "Hi babe",
-  "complete": true
-}, {
-  "from": "me",
-  "body": "Finished the meeting early",
-  "complete": true
-}, {
-  "from": "me",
-  "body": "I'll come join you guys",
+  "from": "her",
+  "body": "I can't believe I got paired with Mother Teresa.",
   "complete": true
 }, {
   "from": "her",
-  "body": "Great!",
+  "body": "Now you'll be a good saint and do it all yourself, right?",
+  "complete": true
+}, {
+  "from": "me",
+  "body": "Ummm...no.",
   "complete": true
 }, {
   "from": "her",
-  "body": "The kids are so excited!",
+  "body": "Ummm...yes.",
   "complete": true
 }, {
   "from": "her",
-  "body": "I'm surprised. Amy's meetings usually run long",
-  "complete": true
-}, {
-  "from": "me",
-  "body": "No kidding. She must not be feeling well!",
-  "complete": true
-}, {
-  "from": "me",
-  "body": "Where are you now?",
+  "body": "One, I'll be too busy staring at Justin.",
   "complete": true
 }, {
   "from": "her",
-  "body": "Just leaving the church",
+  "body": "Two, the more I do, the lower your grade.",
   "complete": true
 }, {
   "from": "me",
-  "body": "I should make it there about the same time",
+  "body": "I wish I was paired with Tyler.",
   "complete": true
 }, {
   "from": "her",
-  "body": "Ok",
+  "body": "No way!",
   "complete": true
 }, {
   "from": "her",
-  "body": "Love you!",
+  "body": "You two nerds would ruin the curve!",
   "complete": true
 }, {
   "from": "me",
-  "body": "Love you too",
+  "body": "We're going to meet in the lobby before the show, right?",
+  "complete": true
+}, {
+  "from": "her",
+  "body": "There's no way I'd be seen in that piece of junk car of yours.",
+  "complete": true
+}, {
+  "from": "her",
+  "body": "It's louder than a garbage truck and smells ten times worse!",
   "complete": true
 }, {
   "from": "me",
-  "body": "Tell the kids I love them",
+  "body": "My dad's going to fix it.",
   "complete": true
 }, {
-  "from": "me",
-  "body": "Will give them their hugs soo",
-  "complete": false
+  "from": "her",
+  "body": "Just donate it to the demolition derby.",
+  "complete": true
+}, {
+  "from": "her",
+  "body": "They'll put it out of its misery.",
+  "complete": true
 }]

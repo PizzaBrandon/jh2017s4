@@ -128,7 +128,7 @@ class App extends Component {
 
     return (
       <div className="container" style={ style }>
-        <div className="header">Karen</div>
+        <div className="header">Kate</div>
         <div className="messagewindow">
           <div className="messagelist">
             { messageDisplay }
